@@ -148,21 +148,21 @@ p {
   0% {
     width: 100vw;
     height: 100vh;
-    transform: scale(2.00);
+    transform: scale(2.75);
     opacity: 0;
     margin: 0 auto;
-    top: 0%;
-    left: 0%;
+    top: 35%;
+    left: 45%;
   }
 
   1% {
     width: 100vw;
     height: 100vh;
-    transform: scale(2.00);
+    transform: scale(2.75);
     opacity: 1;
     margin: 0 auto;
-    top: 0%;
-    left: 0%;
+    top: 35%;
+    left: 45%;
   }
 
   50% {
@@ -170,8 +170,8 @@ p {
     height: 22.5vh;
     width: 22.5vw;
     margin: 0 auto;
-    top: 20%;
-    left: 40%;
+    top: 23%;
+    left: 45%;
   }
 
   100% {
@@ -181,6 +181,6 @@ p {
     height: 10vh;
     margin: 0 auto;
     top: 23%;
-    left: 45%;
+    left: 47%;
   }
 }
