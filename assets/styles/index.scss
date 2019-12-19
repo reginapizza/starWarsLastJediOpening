@@ -20,8 +20,7 @@ p {
   animation-delay: 3s; //change back to 7s after debugging
   opacity: 0;
   z-index: 0;
-  height: 100vh;
-  size: 100%;
+  background-size: 1400px 800px;
 }
 
 .end-paragraph {
@@ -42,7 +41,7 @@ p {
   // position: absolute;
   text-shadow: 0 0 30px rgba(51, 128, 123, 0.5);
   // top: 40%;
-  z-index: 1;
+  z-index: 0;
   position: fixed;
   top: 40vh;
   left: 45vw;
@@ -132,10 +131,6 @@ p {
 
 @keyframes bgi {
   0% {
-    opacity: 0;
-  }
-
-  1% {
     opacity: 1;
   }
 
@@ -181,6 +176,6 @@ p {
     height: 10vh;
     margin: 0 auto;
     top: 23%;
-    left: 47%;
+    left: 45%;
   }
 }
